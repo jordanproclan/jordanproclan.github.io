@@ -1,0 +1,14 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    }
+    header #encabezado{
+        background-color: brown;
+        width: 1920px;
+        height: 100px;
+        border: solid 2px black;
+        background-size: cover;
+        background-attachment: fixed;
+    }

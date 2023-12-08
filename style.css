@@ -6,9 +6,24 @@
     }
     header #encabezado{
         background-color: brown;
-        width: 1920px;
         height: 100px;
         border: solid 2px black;
         background-size: cover;
         background-attachment: fixed;
+    }
+    body{
+        background-color: black;
+        text-align: center;
+    }
+    footer{
+        display: block;
+        width: 500px;
+        margin: auto;
+        padding: 15%;
+        border: solid 1px brown;
+        border-radius: 5%;
+        background-color:rgb(9, 15, 15);
+        color: azure;
+        font-size: large;
+
     }

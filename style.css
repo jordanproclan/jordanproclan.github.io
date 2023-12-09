@@ -2,46 +2,95 @@
     border: 0;
     margin: 0;
     padding: 0;
-
     }
-    header #encabezado{
+/***************VARIABLES*****************/
+:root{
+    --negro: #0A0d05;
+    --azul: #201226; 
+    --verde: #d8f2dc;
+    --amarillo: #d9ae79;
+    --rojo: #a62f03;
+}
+/******************BODY********************/
+body{
+    background-color: var(--negro);
+    text-align: center;
+    background-image: url(img/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/******************HEADER********************/
+header #encabezado{
         height: 100px;
-        background-color: black;
-        box-shadow: 0px 10px 40px 40px black;
-    }
-    nav{
-        opacity: 0;
-    }
-    body{
-        background-color: black;
-        text-align: center;
-        background-image: url(img/space.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    footer{
-        display: block;
-        width: 300px;
-        margin: auto;
-        padding: 10%;
-        border: solid 1px rgb(255, 255, 255);
-        border-radius: 13px 23% 5px 23%;
-        background-color:rgb(0, 0, 0);
-        color: azure;
-        font-size:larger;
-        box-shadow: 20px 20px 50px 15px rgb(0, 0, 0);
-        transition: width 2s, height 2s, transform 1s;
-    }
+        background-color: var(--negro);
+        box-shadow: 0px 10px 40px 40px var(--negro);
+}    
+/******************NAV********************/
+nav{
+        
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--verde);
+    border-radius: 0 5px 5px 0;
+  }  
+  #mySidenav a:hover {
+    left: 0;
+  }  
+  #home {
+    top: 20px;
+    background-color: var(--verde);
 
+  }  
+  #mySidenav ul li #home{
+    color: var(--negro);
+  }
+
+  #about {
+    top: 80px;
+    background-color: var(--amarillo);
+  }  
+  #blog {
+    top: 140px;
+    background-color: var(--rojo);
+  }  
+  #projects {
+    top: 200px;
+    background-color: var(--azul);
+  }  
+  #contact {
+    top: 260px;
+    background-color: var(--negro);
+  }
+/******************FOOTER********************/
+footer{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 10%;
+    border: solid 1px var(--verde);
+    border-radius: 13px 23% 5px 23%;
+    background-color:var(--negro);
+    color: var(--verde);
+    font-size:larger;
+    box-shadow: 20px 20px 50px 15px rgb(0, 0, 0);
+    transition: width 2s, height 2s, transform 1s;
+}
     footer a{
         opacity: 0;
         
     }
     footer:hover{
         transform: rotate(360deg);
-        border: solid 1px brown;
-        background-color: rgba(0, 0, 0, 0.93);
+        border: solid 1px var(--rojo);
+        background-color: var(--azul);
         border-radius: 23% 13px 23% 5px;
 
     }

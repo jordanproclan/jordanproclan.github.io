@@ -8,7 +8,8 @@
     <meta name="author" content="Jordan Arellano">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>MAIN</title>
+    <link rel="stylesheet" href="">
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -16,11 +17,11 @@
     </header>
     <nav id="mySidenav" class="sidenav">
         <ul>
-            <li><a href="#" id="home">Home</a></li>
-            <li><a href="#" id="about">About</a></li>
-            <li><a href="#" id="blog">Blog</a></li>
-            <li><a href="#" id="projects">Projects</a></li>
-            <li><a href="#" id="contact">Contact</a></li>
+            <li><a class="tablink Home" onclick="openPage('Home', this, 'var(--verde)')" href="#" >Home</a></li>
+            <li><a class="tablink About" onclick="openPage('About', this, 'var(--amarillo)')" href="#" >About</a></li>
+            <li><a class="tablink Blog" onclick="openPage('Blog', this, 'var(--rojo)')" href="#" >Blog</a></li>
+            <li><a class="tablink Projects" onclick="openPage('Projects', this, 'var(--azul)')" href="#" >Projects</a></li>
+            <li><a class="tablink Contact" onclick="openPage('Contact', this, 'var(--negro)')" href="#" >Contact</a></li>
         </ul>
         <!--<div id="mySidenav" class="sidenav">
             <a href="#" id="about">About</a>
@@ -29,13 +30,36 @@
             <a href="#" id="contact">Contact</a>
           </div>-->
     </nav>
-    <section></section>
+    <section>     
+        <div id="Home" class="tabcontent Home">
+            <h3>Home</h3>
+            <p>Some news this fine day!</p>
+        </div>
+        <div id="About" class="tabcontent About">
+            <h3>About</h3>
+            <p>Some news this fine day!</p>
+        </div>
+        <div id="Blog" class="tabcontent Blog">
+            <h3>Blog</h3>
+            <p>Some news this fine day!</p>
+        </div>
+        <div id="Projects" class="tabcontent Projects">
+            <h3>Projects</h3>
+            <p>Some news this fine day!</p>
+        </div>
+        <div id="Contact" class="tabcontent Contact">
+            <h3>Contact</h3>
+            <p>Some news this fine day!</p>
+        </div>
+    
+    </section>
     <aside></aside>
     <footer>
-        <p>Author: <span><mark>Jordan Arellano</mark> </span>
-        <a href="mailto:developer@jordanproclan.com">developer@jordanproclan.com</a><br>
-        <a href="https://twitter.com/jordanproclan"><br><img src="img/logo-white.png" alt="twitter" width="23px" height="23px"></a>
-        <br><small>All Right Reserved &copy; 2023 - 2024</small></p>
+        <p><mark>Jordan Arellano</mark><br>
+        <a href="mailto:developer@jordanproclan.com">Developer</a><br>
+        <a href="https://twitter.com/jordanproclan"><img src="img/logo-white.png" alt="twitter" width="23px" height="23px"></a><br>
+        <small>All Right Reserved &copy;2024</small></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,7 +2,12 @@
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     }
+html{
+    height: 100%;
+    position:relative;
+}
 /***************VARIABLES*****************/
 :root{
     --negro: #0A0d05;
@@ -13,11 +18,12 @@
 }
 /******************BODY********************/
 body{
+    margin: 0;
     background-color: var(--negro);
     text-align: center;
     background-image: url(img/space.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
 }
 /******************HEADER********************/
@@ -27,6 +33,20 @@ header #encabezado{
         box-shadow: 0px 10px 40px 40px var(--negro);
 }    
 /******************NAV********************/
+.tablink {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .tablink:hover {
+  }
+  .tabcontent {
+    color: var(--verde);
+    display:none;
+    padding: 100px 20px;
+    height: 70%;
+    }  
 nav{
         
 }
@@ -43,48 +63,60 @@ nav{
   }  
   #mySidenav a:hover {
     left: 0;
+    box-shadow: 20px 20px 50px 15px var(--negro); 
   }  
-  #home {
+  .Home {
     top: 20px;
     background-color: var(--verde);
-
   }  
-  #mySidenav ul li #home{
+  #mySidenav ul li .Home{
     color: var(--negro);
   }
-
-  #about {
+  #Home{
+    color: var(--negro);
+  }
+  .About {
     top: 80px;
     background-color: var(--amarillo);
   }  
-  #blog {
+  .Blog {
     top: 140px;
     background-color: var(--rojo);
   }  
-  #projects {
+  .Projects {
     top: 200px;
     background-color: var(--azul);
   }  
-  #contact {
+  .Contact {
     top: 260px;
     background-color: var(--negro);
+  }
+
+  section{
+    display: inline-block;
+    height: 500px;
+    width: 400px;
   }
 /******************FOOTER********************/
 footer{
     display: block;
-    width: 300px;
-    margin: auto;
-    padding: 10%;
+    position: absolute;
+    width: 200px;
+    bottom: 2px;
+    padding: 13px;
     border: solid 1px var(--verde);
     border-radius: 13px 23% 5px 23%;
     background-color:var(--negro);
     color: var(--verde);
     font-size:larger;
-    box-shadow: 20px 20px 50px 15px rgb(0, 0, 0);
+    box-shadow: 20px 20px 50px 15px var(--negro);
     transition: width 2s, height 2s, transform 1s;
 }
     footer a{
         opacity: 0;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-color: var(--amarillo);
         
     }
     footer:hover{
@@ -96,5 +128,13 @@ footer{
     }
     footer:hover a{
         opacity: 1;
-
+        text-decoration: none;
+        text-decoration-line: none;
+        color: var(--amarillo);
+    }
+    mark{
+        background-color: var(--amarillo);
+        color: var(--azul);
+        border-radius: 3px;
+        padding: 1px;
     }

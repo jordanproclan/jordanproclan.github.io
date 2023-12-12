@@ -15,11 +15,7 @@
 
 [^3]: También hacemos énfasis en los derechos de autor y sus procedentes regalías y créditos, [jordanproclan.com](https://jordanproclan.com), tiene __todos los derechos reservados__ &copy;2023. Y en cada apartado el cuál se vea afectado por estos términos y condiciones se publicará.  
  
-***
-
 [^3]: [jordanproclan.com](https://jordanproclan.com), se reserva el derecho a modificar todos estos términos y condiciones en cualquier momento que esto se requiera.
-  
-***
   
 [^3]: Para cualquier consulta relacionada con estas condiciones en forma generalizada especificamente para derechos de autor, puede contactar a los métodos de contacto que aqui se adjuntan.   
 

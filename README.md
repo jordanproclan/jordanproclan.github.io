@@ -1,24 +1,24 @@
 # jordanproclan.com | jordanproclan.github.io
 ***
 
-## Este contenido así tambien como el contenido presentado, estan bajo las leyes gubernamentales, locales, estatales e internacionales dependientes e independientes.[^1]
+## [^1]:Este contenido así tambien como el contenido presentado, estan bajo las leyes gubernamentales, locales, estatales e internacionales dependientes e independientes.
 
-### [jordanproclan.com](https://jordanproclan.com), se rige bajo las leyes que aqui proceden por parte del servicio y cliente, tenemos en claro las legislaciones en el ámbito digital tanto en la EU como en América.[^2]
+### [^2]:[jordanproclan.com](https://jordanproclan.com), se rige bajo las leyes que aqui proceden por parte del servicio y cliente, tenemos en claro las legislaciones en el ámbito digital tanto en la EU como en América.
 ***
->[!NOTE]
->### 1. Políticas de privacidad [^1]
->### 2. Políticas de cookies [^2]
->### 3. Términos y condiciones [^3]
+>[!CAUTION]
+>### 1. Políticas de privacidad[^1].
+>### 2. Políticas de cookies[^2].
+>### 3. Términos y condiciones[^3].
 
-
-***
-### También hacemos enfasís en los derechos de autor y sus procedentes regalías y créditos, [jordanproclan.com](https://jordanproclan.com), tiene __todos los derechos reservados__ &copy;2023. Y en cada apartado el cuál se vea afectado por estos términos y condiciones se publicará. [^3]
 
 ***
-### [jordanproclan.com](https://jordanproclan.com), se reserva el derecho a modificar todos estos términos y condiciones en cualquier momento que esto se requiera.[^3]
+### [^3]:También hacemos enfasís en los derechos de autor y sus procedentes regalías y créditos, [jordanproclan.com](https://jordanproclan.com), tiene __todos los derechos reservados__ &copy;2023. Y en cada apartado el cuál se vea afectado por estos términos y condiciones se publicará. 
 
 ***
-### Para cualquier consulta relacionada con estas condiciones en forma generalizada especificamente para derechos de autor, puede contactar a los métodos de contacto que aqui se adjuntan. [^3]
+### [^3]:[jordanproclan.com](https://jordanproclan.com), se reserva el derecho a modificar todos estos términos y condiciones en cualquier momento que esto se requiera.
+
+***
+### [^3]:Para cualquier consulta relacionada con estas condiciones en forma generalizada especificamente para derechos de autor, puede contactar a los métodos de contacto que aqui se adjuntan. 
 
 >rigths@jordanproclan.com 
 

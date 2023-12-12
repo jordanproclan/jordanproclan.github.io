@@ -43,10 +43,22 @@ header #encabezado{
   }
   .tabcontent {
     color: var(--verde);
-    display:none;
-    padding: 100px 20px;
-    height: 70%;
+    display: none;
+    padding: 10px;
+    text-align: center ;
+    border: solid 1px var(--negro);
+    border-radius: 13px 23px 5px 23px;
+    box-sizing: border-box;
+    width: 90%;
     }  
+    .imginside{
+      width: 150px;
+      height: 150px;
+      padding: 5px;
+      display:inline-flex;
+
+      
+    }
 nav{
         
 }
@@ -64,7 +76,24 @@ nav{
   #mySidenav a:hover {
     left: 0;
     box-shadow: 20px 20px 50px 15px var(--negro); 
+    background: linear-gradient(top, var(--verde), transparent, var(--verde));
+    background: -webkit-linear-gradient(top, transparent, transparent, transparent);
+
   }  
+  #mySidenav ul li .Homenav:hover{
+    color: var(--verde);
+
+  }
+  #mySidenav ul li .Homenav:visited{
+    color: var(--amarillo);
+
+  }
+  #mySidenav ul li .Homenav:link{
+    color: var(--negro);
+
+  }
+
+
   .Home {
     top: 20px;
     background-color: var(--verde);
@@ -94,11 +123,14 @@ nav{
 
   section{
     display: inline-block;
-    height: 500px;
-    width: 400px;
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    align-items: center;
   }
 /******************FOOTER********************/
 footer{
+    clear: both;
     display: block;
     position: absolute;
     width: 200px;

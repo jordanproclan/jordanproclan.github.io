@@ -30,8 +30,8 @@
     <section> 
 <!--tODO LO RELACIONADO CON EL HOME-->    
         <div id="Home" class="tabcontent Home">
-            <h3>Home</h3>
-            <p>Some news this fine day!
+            <h3 class="first">Home</h3>
+            <p class="parrafo">Some news this fine day!
                 <img class="imginside" src="./img/paletacolores.jpeg" alt="">
             </p>
         </div>
@@ -62,25 +62,58 @@
         </div>
 <!--Todo lo relacionado con el blog-->
         <div id="Blog" class="tabcontent Blog">
-            <h3>Blog</h3>
-            <p>Some news this fine day!
+            <h3 class="first">Blog</h3>
+            <p class="parrafo">Some news this fine day!
                 <img class="imginside" src="./img/paletacolores.jpeg" alt="">
             </p>
         </div>
 <!--Todo lo relacionado con los proyectos-->
         <div id="Projects" class="tabcontent Projects">
-            <h3>Projects</h3>
-            <p>Some news this fine day!
+            <h3 class="first">Projects</h3>
+            <p class="parrafo">Some news this fine day!
                 <img class="imginside" src="./img/paletacolores.jpeg" alt="">
             </p>
         </div>
 <!--Todo lo relacionado con el contacto-->
         <div id="Contact" class="tabcontent Contact">
-            <h3>Contact</h3>
-            <p>Some news this fine day!
-                <img class="imginside" src="./img/paletacolores.jpeg" alt="">
-            </p>
-        </div>
+            <h3 class="first">Contact</h3>
+            <form name="nombre" action="cliente.js" method="post">
+                <p class="parrafo decontact">
+                <label for="empresa" class="decontact">Nombre:
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="entrada"><br>
+                </label>
+                
+                <label for="direccion" class="decontact">Dirección:
+                    <input type="text" name="direccion" id="direccion" placeholder="Dirección" class="entrada"><br>
+                </label>
+        
+                <label for="pais" class="decontact">País:
+                    <input type="text" name="pais" id="pais" placeholder="País" class="entrada"><br>
+                </label>
+        
+                <label for="codigopostal" class="decontact">Código postal:
+                    <input type="number" name="codigopostal" id="codigopostal" placeholder="Código Postal" class="entrada"><br>
+                </label>
+        
+                <label for="telefono" class="decontact">Número de Teléfono:
+                    <input type="tel" name="telefono" id="telefono" placeholder="Nº de teléfono" class="entrada"><br>
+                </label>
+        
+                <label for="email" class="decontact">Email:
+                    <input type="email" name="email" id="email" placeholder="Email" class="entrada"><br>
+                </label>
+        
+                <label for="url" class="decontact">Link de la web:
+                    <input type="url" name="murl" id="url" placeholder="Url de la web" class="entrada"><br>
+                </label>
+
+                <div id="botonera">
+                    <input id="enviarform" type="submit" value="Enviar">
+                    <input id="borrarform" type="reset" value="Borrar todo">
+                </div>
+                </p>      
+            </form>
+        </div>        
 <!--FIN DEL SECTION-->
     </section>
     <aside></aside>

@@ -44,20 +44,18 @@ body{
 #mySidenav a {
     transition: 0.3s;
     padding: 15px;
-    margin: 0;
-    width: 100px;
     text-decoration: none;
     font-size: 23px;
     color: var(--verde);
+    border-radius: 0 0 4px 4px;
   }  
   #mySidenav a:hover {
     box-shadow: 20px 20px 50px 15px var(--negro); 
-    background: linear-gradient(top, var(--verde), transparent, var(--verde));
     background: -webkit-linear-gradient(top, transparent, transparent, transparent);
-  }  
+  }
   #mySidenav li .Home{
     color: var(--amarillo);
-  }
+  }  
   li{
     display: inline-block;
   }
@@ -129,10 +127,11 @@ nav{
     text-align: justify;
     display: inline-block;
     padding: 5px;
+    font-size: 18px;
   }
   input{
-    margin: 5px 10px;
-    padding: 5px;
+    font-size: 13px;
+    padding: 8px;
     border: solid 1px var(--azul);
     border-radius: 3px;
   }
@@ -151,19 +150,27 @@ nav{
   border-radius: 3px;
   margin: 10px;
   padding: 10px;
+  text-shadow: rgba(0, 0, 0, .5) 3px 3px 5px;
 }
 #enviarform:hover{
   background-color: var(--verde);
+  border: solid 2px var(--rojo);
+  color: var(--rojo);
+  font-size: 18px;
 }
 #borrarform{
-  transition: .3;
+  transition: .3s;
   border: 1px solid var(--negro);
   border-radius: 3px;
   margin: 10px;
   padding: 10px;
+  text-shadow: rgba(0, 0, 0, .5) 3px 3px 5px;
 }
 #borrarform:hover{
   background-color: var(--rojo);
+  border: solid 2px var(--verde);
+  color: var(--verde);
+  font-size: 18px;
 }
   .Home {
     background-color: var(--verde);
@@ -203,6 +210,9 @@ nav{
   .Contact p{
     color: var(--negro);
     background-color: var(--amarillo);
+  }
+#mySidenav li .Contact:hover{
+    color: var(--amarillo);
   }
 /******************FOOTER********************/
 footer{

@@ -14,8 +14,8 @@
 <body>
     <header id="encabezado">
 <!--TODA RELACIONADO A LA BOTONERA DE LA WEB-->
-            <nav id="mySidenav" class="sidenav">
-                    <li><a class="tablink Home Homenav" onclick="openPage('Home', this, 'var(--verde)')" href="#" >Home</a></li>
+            <nav id="mySidenav">
+                    <li><a class="tablink Home" onclick="openPage('Home', this, 'var(--verde)')" href="#" >Home</a></li>
                     <li><a class="tablink About" onclick="openPage('About', this, 'var(--amarillo)')" href="#" >About</a></li>
                     <li><a class="tablink Blog" onclick="openPage('Blog', this, 'var(--rojo)')" href="#" >Blog</a></li>
                     <li><a class="tablink Projects" onclick="openPage('Projects', this, 'var(--azul)')" href="#" >Projects</a></li>
@@ -24,8 +24,6 @@
             </nav>
 <!--FIN DEL HEADER-->
     </header>
-
-
     <section> 
 <!--tODO LO RELACIONADO CON EL HOME-->    
         <div id="Home" class="tabcontent Home">
@@ -35,7 +33,7 @@
             </p>
         </div>
 <!--Todo lo relacionado con el sobre-->
-        <div id="About" class="tabcontent About sobre">
+        <div id="About" class="tabcontent About">
             <h3 class="first">EL PRIMER PASO</h3>
                 <p class="parrafo">El primer paso para entablar una relacion de lo que somos que queremos 
                     y que buscamos, los dividiremos en estos 3 sencillos puntos.</p><br>
@@ -76,7 +74,7 @@
 <!--Todo lo relacionado con el contacto-->
         <div id="Contact" class="tabcontent Contact">
             <h3 class="first">Contact</h3>
-            <form name="nombre" action="cliente.js" method="post">
+            <form name="nombre" action="#" method="post">
                 <p class="parrafo decontact">
                 <label for="empresa" class="decontact">Nombre:
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="entrada"><br>
@@ -102,8 +100,8 @@
                     <input type="email" name="email" id="email" placeholder="Email" class="entrada"><br>
                 </label>
         
-                <label for="url" class="decontact">Link de la web:
-                    <input type="url" name="murl" id="url" placeholder="Url de la web" class="entrada"><br>
+                <label for="url" class="decontact">Web:
+                    <input type="url" name="murl" id="url" placeholder="Url" class="entrada"><br>
                 </label>
 
                 <div id="botonera">
@@ -121,7 +119,7 @@
         <p><mark>Jordan Arellano</mark><br>
         <a href="mailto:developer@jordanproclan.com">Developer</a><br>
         <a href="https://twitter.com/jordanproclan"><img src="img/logo-white.png" alt="twitter" width="23px" height="23px"></a><br>
-        <small>All Right Reserved &copy;2024</small></p>
+        <small>All Right Reserved &copy; 2023 - 2024</small></p>
     </footer>
 <!--TODOS LOS SCRIPTS-->
     <script src="script.js"></script>

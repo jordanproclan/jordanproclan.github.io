@@ -12,21 +12,20 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <div id="encabezado"></div>
+    <header id="encabezado">
+<!--TODA RELACIONADO A LA BOTONERA DE LA WEB-->
+            <nav id="mySidenav" class="sidenav">
+                    <li><a class="tablink Home Homenav" onclick="openPage('Home', this, 'var(--verde)')" href="#" >Home</a></li>
+                    <li><a class="tablink About" onclick="openPage('About', this, 'var(--amarillo)')" href="#" >About</a></li>
+                    <li><a class="tablink Blog" onclick="openPage('Blog', this, 'var(--rojo)')" href="#" >Blog</a></li>
+                    <li><a class="tablink Projects" onclick="openPage('Projects', this, 'var(--azul)')" href="#" >Projects</a></li>
+                    <li><a class="tablink Contact" onclick="openPage('Contact', this, 'var(--negro)')" href="#" >Contact</a></li>
+        <!--FIN DEL SECTION-->
+            </nav>
 <!--FIN DEL HEADER-->
     </header>
-<!--TODA RELACIONADO A LA BOTONERA DE LA WEB-->
-    <nav id="mySidenav" class="sidenav">
-        <ul>
-            <li><a class="tablink Home Homenav" onclick="openPage('Home', this, 'var(--verde)')" href="#" >Home</a></li>
-            <li><a class="tablink About" onclick="openPage('About', this, 'var(--amarillo)')" href="#" >About</a></li>
-            <li><a class="tablink Blog" onclick="openPage('Blog', this, 'var(--rojo)')" href="#" >Blog</a></li>
-            <li><a class="tablink Projects" onclick="openPage('Projects', this, 'var(--azul)')" href="#" >Projects</a></li>
-            <li><a class="tablink Contact" onclick="openPage('Contact', this, 'var(--negro)')" href="#" >Contact</a></li>
-        </ul>
-<!--FIN DEL SECTION-->
-    </nav>
+
+
     <section> 
 <!--tODO LO RELACIONADO CON EL HOME-->    
         <div id="Home" class="tabcontent Home">

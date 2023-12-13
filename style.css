@@ -27,10 +27,10 @@ body{
     background-attachment: fixed;
 }
 /******************HEADER********************/
-header #encabezado{
-        height: 50px;
-        background-color: var(--negro);
-        box-shadow: 0px 10px 40px 40px var(--negro);
+#encabezado{
+    height: 70px;
+    background-color: var(--negro);
+    box-shadow: 0px 10px 40px 40px var(--negro);
 }
 /******************NAV********************/
 .tablink {
@@ -42,42 +42,31 @@ header #encabezado{
   }
 /******************CONTENEDOR DE LOS NAV********************/
 #mySidenav a {
-    position: absolute;
-    left: -80px;
     transition: 0.3s;
     padding: 15px;
+    margin: 0;
     width: 100px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
     color: var(--verde);
-    border-radius: 0 5px 5px 0;
   }  
   #mySidenav a:hover {
-    left: 0;
     box-shadow: 20px 20px 50px 15px var(--negro); 
     background: linear-gradient(top, var(--verde), transparent, var(--verde));
     background: -webkit-linear-gradient(top, transparent, transparent, transparent);
   }  
-  #mySidenav ul li .Homenav:hover{
-    color: var(--verde);
-  }
-  #mySidenav ul li .Homenav:visited{
+  #mySidenav li .Home{
     color: var(--amarillo);
   }
-  #mySidenav ul li .Homenav:link{
-    color: var(--negro);
+  li{
+    display: inline-block;
   }
-  #mySidenav ul li .Home{
-    color: var(--negro);
-  }
-nav{     
+nav{  
 }
 /******************SECTION********************/
   section{
   display: inline-block;
-  height: auto;
-  width: auto;
-  margin-left: 10%;
+  margin: auto;
   align-items: center;
 }
 /******************CONTENEDOR DE LOS NAV********************/
@@ -90,7 +79,7 @@ nav{
     border-radius: 13px 23px 5px 23px;
     box-sizing: border-box;
     width: 70%;
-    margin-left: 10%;
+    margin: auto;
     box-shadow: 20px 20px 50px 15px var(--negro); 
     }
     .imginside{
@@ -101,7 +90,7 @@ nav{
     }    
 /******************CONTENEDOR DE DIV DE LOS DIV DEL NAV********************/
   .first{
-    font-size: 33px;
+    font-size: 23px;
     border-bottom: solid 4px var(--rojo);
     text-align: left;
     outline-offset: 10px;
@@ -114,7 +103,7 @@ nav{
     box-shadow: 5px 5px 7px 6px var(--azul);
   }
   .second{
-    font-size: 23px;
+    font-size: 18px;
     border-bottom:solid 3px var(--amarillo);
     text-shadow: rgba(0, 0, 0, .5) 3px 3px 5px;
     background-color: var(--verde);
@@ -177,7 +166,6 @@ nav{
   background-color: var(--rojo);
 }
   .Home {
-    top: 20px;
     background-color: var(--verde);
     color: var(--negro);
   } 
@@ -186,14 +174,12 @@ nav{
     background-color: var(--amarillo);
   }
   .About {
-    top: 80px;
     background-color: var(--amarillo);
     padding: 10px;
     text-align: justify;
     color: var(--negro);
   }  
   .Blog {
-    top: 140px;
     background-color: var(--rojo);
     color: var(--negro);
   }
@@ -202,7 +188,6 @@ nav{
     background-color: var(--amarillo);
   }
   .Projects {
-    top: 200px;
     background-color: var(--azul);
     color: var(--negro);
   }
@@ -212,7 +197,6 @@ nav{
     box-shadow: 5px 5px 7px 6px var(--negro);
   }
   .Contact {
-    top: 260px;
     background-color: var(--negro);
     color: var(--negro);
   }
@@ -224,16 +208,14 @@ nav{
 footer{
     clear: both;
     display: block;
-    position: absolute;
-    width: 200px;
-    bottom: 2px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
     padding: 13px;
-    border: solid 1px var(--verde);
-    border-radius: 13px 23% 5px 23%;
     background-color:var(--negro);
     color: var(--verde);
     font-size:larger;
-    box-shadow: 20px 20px 50px 15px var(--negro);
+    box-shadow: -20px -10px 80px 80px var(--negro);
     transition: width 2s, height 2s, transform 1s;
 }
     footer a{
@@ -243,10 +225,6 @@ footer{
         text-decoration-color: var(--amarillo);    
     }
     footer:hover{
-        transform: rotate(360deg);
-        border: solid 1px var(--rojo);
-        background-color: var(--azul);
-        border-radius: 23% 13px 23% 5px;
     }
     footer:hover a{
         opacity: 1;
